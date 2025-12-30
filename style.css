@@ -1,0 +1,49 @@
+mm{
+    padding: 1rem;
+    background-color: rgb(255, 0, 34);
+    border-radius: 0.25rem;
+    transition: transform 0.4s ease;
+
+}
+nn{
+    padding: 1rem;
+    background-color: rgb(0, 47, 255);
+    border-radius: 0.25rem;
+    transition: transform 0.4s ease;
+}
+.car{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 150px;
+    height: 210px;
+    border-radius: 1rem;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 20px rgba(2,2,2,0.4);
+}
+img:hover{
+    transform: scale(1.15);
+}
+
+#nn1{
+position:relative;
+top: 100px;
+}
+#nn2{
+position:relative;
+}
+#mm1{
+position:relative;
+}
+#mm2{
+position:relative;
+}
